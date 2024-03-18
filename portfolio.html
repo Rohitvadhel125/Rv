@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+        background-image: url(back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        nav{
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+           
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        nav ul li a:hover{
+            color: rgb(84, 84, 200);
+            font-size: 1.1rem;
+            
+        }
+            
+        .left{
+            font-size: 1.5em;
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+        }
+        .first >div{
+            width: 30%;
+            
+        }
+        .leftsection{
+           
+            font-size: 2.5rem;
+        }
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+        .leftsection .btn{
+            margin-top: 50px;
+            padding: 8px;
+            background-color: rgb(116, 116, 229); 
+            color: white;
+            border: 2px solid white;
+            border-radius: 4px;
+            font-size: 20px;
+            cursor: pointer;
+       }
+        .rightfunction img{
+            width: 400px;
+            height: 400px;
+            margin: 4px;
+            border-radius: 400px;
+           
+        }
+        .purple{
+            color: rgb(123, 30, 209);
+        }
+        #element{
+            color: rgb(123, 30, 209);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            margin-top: 20px;
+            height: 450px;
+        }
+        main hr{
+            border: 0;
+            background: rgb(252, 247, 247);
+            height: 1.2px;
+            margin: 40px 140px;
+        }
+        .secondsection h1{
+            font-size: 1.9rem;
+        }
+        .text-gray{
+            color: rgb(238, 120, 120);
+        }
+        .secondsection .box {
+            background: white;
+            width: 81vw;
+            height: 2px;
+            margin: 86px 0;
+            display: flex;
+
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin-left:240px;
+        
+        }
+        .image-top{
+            width: 40px;
+            position: relative;
+            top: -33px;
+            left: -12px;
+
+        }
+        .vertical-title{
+            position: relative;
+            top: 65px;
+            left: -30px;
+            width: 150px;
+            font-size: 16px;
+
+
+        }
+        .vertical-disc{
+            position: relative;
+            top: 90px;
+            left: -30px;
+            color: rgb(123, 30, 209);
+            width: 150px;
+            font-size: 12px;
+
+        }
+        footer{
+            background-color: rgb(13, 12, 13);
+            height: 250px;
+
+        }
+        .footer{
+            display: flex;
+            padding: 23px 123px;
+            margin: 10px;
+            font-size: 20px;
+            justify-content: space-evenly;
+
+        }
+        .footer ul{
+            list-style: none;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: aliceblue;
+            padding: 170px 0px;
+        
+        }
+        .footer-first{
+            padding: 1px;
+            margin-right: 220px;
+        }
+        .li{
+            text-decoration: none;
+            color: white;
+        }
+       
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">ROHIT`S PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="portfolio.html">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="/">PROJECTS</a></li>
+                </ul>
+            </div>
+
+    </nav>
+</header>
+<main>
+    <section class="first">
+        <div class="leftsection">
+            Hy my name is <span class="purple">ROHIT VADHEL</span>
+            And i am a 
+          
+            <span id="element"></span>
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn"><a href="https://github.com/Rohitvadhel125/Rv.git">visit Github</a></button>
+            </div>
+        </div>
+        <div class="rightfunction">
+            <img src="rv5.JPG" alt="">
+        </div>
+
+    </section>
+    <hr>
+    <section class="secondsection">
+        <span class="text-gray">what i have done so far</span>
+        <h1>STUDY EXPIRIANCE</h1>
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="10th.jpg" alt="">
+                <div class="vertical-title">10TH STANDARD(2015-2016)</div>
+                <div class="vertical-disc"> 10th STANDARD is very help full of my expiriance in life and must enjoy of my 10th
+
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="12th.jpg" alt="">
+                <div class="vertical-title">12TH STANDARD(2017-2018)</div>
+                <div class="vertical-disc"> 12th STANDARD is very help full of my expiriance in life and must enjoy of my 12th
+
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="graduation.jpg" alt="">
+                <div class="vertical-title">GRADUATION(2018-2021)</div>
+                <div class="vertical-disc"> Graduation is very help full of my expiriance in life and must enjoy of my Graduation
+
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="graduation.jpg" alt="">
+                <div class="vertical-title">POST-GRADUATION(2022-2024)</div>
+                <div class="vertical-disc"> POST-GRADUATION is very help full of my expiriance in life and must enjoy of my POST-GRADUATION
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Rohit`s Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+        <li class="li"><a href="https://www.youtube.com/No buddy knows" target="_blank" rel="noopener noreferrer">YouTube</a></li>&nbsp;&nbsp;
+        <li class="li"><a href="https://www.instagram.com/rahulvadhel125" target="_blank" rel="noopener noreferrer">instagram</a></li>&nbsp;&nbsp;
+        <li class="li"><a href="https://www.facebook.com/vadhelrahul" target="_blank" rel="noopener noreferrer">facebook</a></li>
+            
+            </ul>
+            </div>
+    <div class="footer-rights">
+        CopyRight &#169; | www.rohitvadhelportfolio.com |All Right Reserved
+    </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Devloper,', 'Python Devloper,','D-jango Framework .'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
